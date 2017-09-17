@@ -1,8 +1,9 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
+<img src="./image/Trimed.gif?raw=true" width="500px">
+
 ## Project goal and description
-<img src="./image/Trimed.gif?raw=true">
 
 The objective of this project is to develop a model predictive controller (MPC) to navigate a car around a track in a Udacity-provided simulator. The simulator provides measurement values containing the position of the car, its speed and heading direction as well as the coordinates of waypoints along a reference trajectory that the car is to follow. All coordinates are provided in a global coordinate system. The simulated car's actuators have a 100ms latency (delay) that must be accounted for as one may encounter in real-world application. 
 
