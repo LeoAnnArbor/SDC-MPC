@@ -1,5 +1,8 @@
-# CarND-Controls-MPC
+
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+# Udacity Self-Driving Car Engineer Nanodegree
+# CarND-Controls-MPC
+
 <img src="./image/Trimed.gif?raw=true" width="500px">
 
 ## Project goal and description
