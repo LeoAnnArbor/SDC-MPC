@@ -3,10 +3,13 @@ Self-Driving Car Engineer Nanodegree Program
 
 ## Project goal and description
 
-The objective of this project is to develop a model predictive controller (MPC) to navigate a car around a track in a Udacity-provided simulator. The simulator provides measurement values containing the position of the car, its speed and heading direction as well as the coordinates of waypoints along a reference trajectory that the car is to follow. All coordinates are provided in a global coordinate system. The simulated car's actuators have a 100ms latency (delay) that must be accounted for as one may encounter in real-world application.
+The objective of this project is to develop a model predictive controller (MPC) to navigate a car around a track in a Udacity-provided simulator. The simulator provides measurement values containing the position of the car, its speed and heading direction as well as the coordinates of waypoints along a reference trajectory that the car is to follow. All coordinates are provided in a global coordinate system. The simulated car's actuators have a 100ms latency (delay) that must be accounted for as one may encounter in real-world application. 
 
-To determine an optimal trajectory and its associated actuation commands, I use the IPOPT and CPPAD libraries to minimize error between reference trajectory (yellow line), interpolated with third order polynomial from waypoints and claculated trajectory (green line). The optimization considers only a short duration's worth of waypoints, and produces a trajectory for that duration based upon a model of the vehicle's kinematics and a cost function. Video of the final demo is shown below:
 
+To determine an optimal trajectory and its associated actuation commands, I use the IPOPT and CPPAD libraries to minimize error between reference trajectory (yellow line), interpolated with third order polynomial from waypoints and claculated trajectory (green line). The optimization considers only a short duration's worth of waypoints, and produces a trajectory for that duration based upon a model of the vehicle's kinematics and a cost function. A clip of the final demo is shown:
+<img src="./image/Trimed.gif?raw=true">
+
+Full video can be accessed by clicking the video below:
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/vb4_26p7By0/0.jpg)](https://youtu.be/vb4_26p7By0 "MPC demo")
 
 ## Discussion and Reflection
